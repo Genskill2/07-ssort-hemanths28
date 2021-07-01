@@ -4,9 +4,9 @@
 
 void swap_max(int arr[], int l, int n)
 {
-    int temp, pos = 0;
+    int temp, pos = n;
     int max = arr[n];
-    for (int i = n + 1; i < l; i++)
+    for (int i = n; i < l; i++)
     {
         if (arr[i] > max)
             max = arr[i];
