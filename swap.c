@@ -28,3 +28,10 @@ void swap_max(int arr[], int l, int n)
         printf("%d ", arr[i]);
     }
 }
+
+void ssort(int arr[],int l)
+{
+ int  i;
+ for(i=0;i<l;i++)
+   swap_max(arr,l,i);
+}
