@@ -23,10 +23,6 @@ void swap_max(int arr[], int l, int n)
     temp = arr[n];
     arr[n] = max;
     arr[pos] = temp;
-    for (int i = 0; i < l; i++)
-    {
-        printf("%d ", arr[i]);
-    }
 }
 
 void ssort(int arr[],int l)
