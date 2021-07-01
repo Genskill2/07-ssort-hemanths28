@@ -4,8 +4,7 @@
 
 void swap_max(int arr[], int l, int n)
 {
-    int j = 0;
-    int k, temp, pos = 0;
+    int temp, pos = 0;
     int max = arr[n];
     for (int i = n + 1; i < l; i++)
     {
